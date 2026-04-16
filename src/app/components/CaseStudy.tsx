@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { ArrowRight, TrendingUp } from "lucide-react";
+import tagLighthouseImg from "../../imports/image-3.png";
 
 export function CaseStudy() {
   return (
@@ -43,7 +44,7 @@ export function CaseStudy() {
                 Lighthouse Report • March 10, 2026
               </div>
               <ImageWithFallback
-                src="/src/imports/image-3.png"
+                src={tagLighthouseImg}
                 alt="TAG Unlimited Clothing Lighthouse Scores"
                 className="w-full rounded-lg"
               />

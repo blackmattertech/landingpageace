@@ -1,6 +1,9 @@
 import { motion } from "motion/react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { AlertTriangle } from "lucide-react";
+import lighthouseImg from "../../imports/image.png";
+import webVitalsImg from "../../imports/image-1.png";
+import optimizationImg from "../../imports/image-2.png";
 
 const metrics = [
   { label: "Performance", before: 62, after: 98, color: "accent" },
@@ -53,7 +56,7 @@ export function Performance() {
           >
             <div className="text-xs text-white/40 mb-3 text-center">Google Lighthouse Report - Desktop</div>
             <ImageWithFallback
-              src="/src/imports/image.png"
+              src={lighthouseImg}
               alt="Lighthouse Performance Scores"
               className="w-full rounded-lg"
             />
@@ -69,7 +72,7 @@ export function Performance() {
             >
               <div className="text-xs text-white/40 mb-3">Core Web Vitals Breakdown</div>
               <ImageWithFallback
-                src="/src/imports/image-1.png"
+                src={webVitalsImg}
                 alt="Core Web Vitals Metrics"
                 className="w-full rounded-lg"
               />
@@ -84,7 +87,7 @@ export function Performance() {
             >
               <div className="text-xs text-white/40 mb-3">Optimization Opportunities</div>
               <ImageWithFallback
-                src="/src/imports/image-2.png"
+                src={optimizationImg}
                 alt="Performance Insights"
                 className="w-full rounded-lg"
               />
