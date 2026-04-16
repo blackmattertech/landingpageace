@@ -9,10 +9,11 @@ const testimonials = [
     metric: "96/100 Performance Score"
   },
   {
-    name: "ACE Gifting Solutions",
-    role: "B2B Corporate Gifting",
-    content: "The performance analysis revealed issues we didn't even know existed. Now we're working with Black Matter to build a complete CRM-integrated system.",
-    metric: "Performance audit completed"
+    name: "XCEL PPF",
+    role: "Paint Protection Film & Automotive Services",
+    content:
+      "We built a custom CRM for XCEL PPF with complete Meta integration—Website leads, Warranty Claim leads, and Meta leads all land directly in the CRM. MCUBE is integrated so the team can initiate calls from the CRM with call recording to enhance the customer experience, plus full product management across the stack.",
+    metric: "CRM: Meta, leads & MCUBE"
   }
 ];
 

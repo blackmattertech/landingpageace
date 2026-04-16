@@ -22,18 +22,20 @@ export function Hero() {
               transition={{ delay: 0.2, duration: 0.6 }}
               className="inline-block px-4 py-2 bg-white/5 border border-white/10 rounded-full"
             >
-              <span className="text-sm md:text-base text-white/70">Performance Analysis</span>
+              <span className="text-sm md:text-base text-white/80 font-semibold tracking-tight">
+                Performance Analysis
+              </span>
             </motion.div>
 
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.6 }}
-              className="text-4xl md:text-5xl lg:text-7xl leading-tight"
-              style={{ fontFamily: 'var(--font-display)' }}
+              className="text-4xl md:text-5xl lg:text-7xl leading-[1.1] md:leading-tight font-bold tracking-tight"
+              style={{ fontFamily: "var(--font-display)" }}
             >
               Your Website <br />
-              <span className="text-white/40">Looks Fine.</span> <br />
+              <span className="text-white/45">Looks Fine.</span> <br />
               It's Just Not <br />
               <span className="text-accent">Performing.</span>
             </motion.h1>
@@ -42,7 +44,8 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.6 }}
-              className="text-lg md:text-xl text-white/60 max-w-xl"
+              className="text-lg md:text-xl text-white/70 max-w-xl font-semibold leading-relaxed tracking-tight"
+              style={{ fontFamily: "var(--font-display)" }}
             >
               We analyzed your website across performance, UX, and conversion metrics.
               Here's where you're losing customers—and how we fix it.
